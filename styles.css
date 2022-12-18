@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.frame {
+    background-color: #202020;    
+    margin: 200px auto;
+    width: 1100px;
+    height: 800px;
+}
+
+.postcard {
+    background-color: #fff;
+    color: #000;
+    position: absolute;
+    margin-left: 275px;
+    margin-top: 240px;
+    width: 525px;
+    height: 375px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.postcard-header {
+
+}
+
+.postcard-header-text {
+    width: 50%;
+    float: left;
+    margin: 20px 0 0 0;
+}
+
+.postcard-header-text h1 {
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+
+.postcard-header-img {
+    width: 50%;
+    float: left;
+}
+
+.postcard-img {
+    width: 75px;
+    height: 75px;
+    margin: 10px 0 0 170px;
+}
+
+.postcard-body {
+
+}
+
+.postcard-body-left {
+    width: 45%;
+    float: left;
+    padding: 10px;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.postcard-body-right {
+    width: 45%;
+    float: left;
+    padding: 10px;
+}
+
+input {
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    border: 0px solid #000000;
+    border-bottom-width: 1px;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+
+.postcard-footer {
+    margin-top: 300px;
+}
+
+button {
+    margin-left: 200px;
+}
